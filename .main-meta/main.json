@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-spi-host-send-fs",
-        "version": " ",
-        "displayName": "PIC18F47Q10 cnano spi host send fs",
+        "version": "1.0.0",
+        "displayName": "Sending Data as a Host SPI Device with Multiple Clients",
         "projectName": "pic18f47q10-cnano-spi-host-send-fs",
         "shortDescription": "This repository contains an example of Foundation Services generated source code for SPI that will be configured as host and it will be used to send data to two client devices one at a time",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.3.89"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,10 +36,19 @@
                 "versionRange": "*"
             }
         },
-        "author": "Prasad Aradhya",
-        "subcategories": [],
-        "peripherals": [],
-        "keywords": [],
+        "author": "Microchip",
+        "subcategories": [
+            [
+                "Peripherals",
+                "MSSP"
+            ]
+        ],
+        "peripherals": [
+            "MSSP"
+        ],
+        "keywords": [
+            "SPI"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
